@@ -1,0 +1,105 @@
+html{
+    height: 100%;
+}
+
+body{
+    background-image: url('https://i.pinimg.com/originals/c5/9a/d2/c59ad2bd4ad2fbacd04017debc679ddb.gif');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+}
+
+h1{
+    margin: 20px 0;
+}
+
+main{
+    width: 300px;
+    background-color: #000000;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    box-shadow: 0 0 20px 5px rgb(0, 255, 64)
+}
+
+form{
+    font-style: italic;
+    height: 880px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+label{
+    color: #ffffff;
+    font-size: medium;
+    font-weight: bold;
+    margin: 0px 0px 0px 20px;
+}
+
+input, textarea{
+    margin: 10px;
+    width: 85%;
+    padding: 5px;
+    color: #11ff00;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    background: transparent;
+}
+
+button{
+    padding: 10px;
+    border: 0;
+    border-radius: 25px;
+    background-color: #00ff15;
+    color: #000000;
+    font-weight: bold;
+    margin: 10px;
+    width: 95%;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #1adc95;
+  }
+footer{
+    margin-top: 20px;
+    text-align: center;
+}
+
+h2{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: #00ff11;
+    text-shadow: #000000
+    2px 2px 2px ;
+
+}
+
+a{
+    text-shadow: #000000
+    2px 2px 2px ;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    color: #2dde77;
+    font-size: large;
+    font-weight: bold;
+}
+
+::-webkit-scrollbar {
+    width: 7px; /* Largura da barra de rolagem */
+}
+
+/* Cor de fundo da barra de rolagem */
+::-webkit-scrollbar-track {
+    background-color: #080808; /* Cor de fundo */
+}
+
+/* Cor da barra de rolagem */
+::-webkit-scrollbar-thumb {
+    background-color: #00ff00; /* Cor da barra de rolagem */
+    border-radius: 5px; /* Borda arredondada para a barra de rolagem */
+}

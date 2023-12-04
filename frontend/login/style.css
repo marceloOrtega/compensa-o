@@ -1,0 +1,110 @@
+html {
+    height: 100%;
+}
+body{
+    background-image: url('https://i.pinimg.com/originals/c5/9a/d2/c59ad2bd4ad2fbacd04017debc679ddb.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.login{
+    text-shadow: #000000
+    2px 2px 2px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    color: #ffffff;
+}
+
+main{
+    font-style: italic;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    border-radius: 25px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background-color: #080808 ;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px 5px rgb(0, 255, 64)
+}
+
+form{
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    color: #ffffff;
+}
+
+label{
+    font-size: medium;
+    font-weight: medium;
+    color: #ffffff;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #09ff00;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    outline: none;
+    background: transparent;
+
+}
+
+button{
+    padding: 10px;
+    border: 0;
+    border-radius: 30px;
+    background-color: #00ff1a;
+    color: #030303;
+    font-weight: bold;
+    margin: 10px;
+    width: 95%;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #3cffc5;
+  }
+footer{
+    margin-top: 20px;
+    text-align: center;
+}
+
+h2{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: #ff0000;
+    text-shadow: #000000
+    2px 2px 2px ;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+    font-size: large;
+    font-weight: bold;
+}
+
+::-webkit-scrollbar {
+    width: 7px; /* Largura da barra de rolagem */
+}
+
+/* Cor de fundo da barra de rolagem */
+::-webkit-scrollbar-track {
+    background-color: #080808; /* Cor de fundo */
+}
+
+/* Cor da barra de rolagem */
+::-webkit-scrollbar-thumb {
+    background-color: #00ff00; /* Cor da barra de rolagem */
+    border-radius: 5px; /* Borda arredondada para a barra de rolagem */
+}
